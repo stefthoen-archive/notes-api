@@ -4,7 +4,6 @@ const apiBaseURL = 'http://localhost:3000';
  * Wrapper around json-server API.
  *
  * @see https://github.com/typicode/json-server
- * @link
  * @author Stef Thoen <stef@baardbaard.nl>
  * @example
  * // Create instance of class.
