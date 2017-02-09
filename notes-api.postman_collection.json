@@ -1,0 +1,78 @@
+{
+	"variables": [],
+	"info": {
+		"name": "JSON-mock",
+		"_postman_id": "ad5aacdb-2ef6-d9e2-9874-328e45289fa4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/notes/id",
+			"request": {
+				"url": "http://localhost:3000/notes/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Get a note."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/notes/",
+			"request": {
+				"url": "http://localhost:3000/notes/",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"Nog een note\",\n\t\"location\": {\n\t\t\"lat\": \"1234\",\n\t\t\"long\": \"5678\"\n\t},\n\t\"author\": \"Bram Willemse\",\n\t\"author_email\": \"bram@willemse.nl\"\n}"
+				},
+				"description": "Get all notes."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/notes/",
+			"request": {
+				"url": "http://localhost:3000/notes/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"2e note\",\n\t\"location\": {\n\t\t\"lat\": \"1234\",\n\t\t\"long\": \"5678\"\n\t},\n\t\"author\": \"Bram Willemse\",\n\t\"author_email\": \"bram@willemse.nl\"\n}"
+				},
+				"description": "Create a note."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/notes/id",
+			"request": {
+				"url": "http://localhost:3000/notes/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "Delete a note."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/notes/id",
+			"request": {
+				"url": "http://localhost:3000/notes/1",
+				"method": "PATCH",
+				"header": [],
+				"body": {},
+				"description": "Update a note."
+			},
+			"response": []
+		}
+	]
+}
