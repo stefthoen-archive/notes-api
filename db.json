@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "title": "Goku is de beste",
+      "location": {
+        "lat": "over9000",
+        "lon": "ookover9000"
+      },
+      "author": "Vegeta",
+      "author_email": "what@doesthescoutersay.abouthispowerlevel",
+      "id": 1
+    },
+    {
+      "title": "2e note",
+      "location": {
+        "lat": "1234",
+        "long": "5678"
+      },
+      "author": "Bram Willemse",
+      "author_email": "bram@willemse.nl",
+      "id": 2
+    },
+    {
+      "title": "Nog een note",
+      "location": {
+        "lat": "1234",
+        "long": "5678"
+      },
+      "author": "Bram Willemse",
+      "author_email": "bram@willemse.nl",
+      "id": 3
+    },
+    {
+      "title": "Goku is de beste",
+      "location": {
+        "lat": "over9000",
+        "lon": "ookover9000"
+      },
+      "author": "Vegeta",
+      "author_email": "what@doesthescoutersay.abouthispowerlevel",
+      "id": 4
+    }
+  ]
+}
