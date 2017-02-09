@@ -39,6 +39,16 @@
       "author": "Vegeta",
       "author_email": "what@doesthescoutersay.abouthispowerlevel",
       "id": 4
+    },
+    {
+      "title": "Goku is de beste",
+      "location": {
+        "lat": "over9000",
+        "lon": "ookover9000"
+      },
+      "author": "Vegeta",
+      "author_email": "what@doesthescoutersay.abouthispowerlevel",
+      "id": 6
     }
   ]
 }

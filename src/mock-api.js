@@ -24,7 +24,7 @@ class MockAPI {
 
     deleteNote(id) {
         return fetch(
-                `${apiBaseURL}/notes/${id}`, { method: "DELETE" })
+            `${apiBaseURL}/notes/${id}`, { method: "DELETE" })
             .then(response => response.json())
     }
 
@@ -75,38 +75,40 @@ api.getNotes()
         console.error('booooo', error);
     });
 
-// api.createNote({
-//       "title": "Goku is de beste",
-//       "location": {
-//         "lat": "over9000",
-//         "lon": "ookover9000"
-//       },
-//       "author": "Vegeta",
-//       "author_email": "what@doesthescoutersay.abouthispowerlevel"
-//     })
-//     .then(response => {
-//         console.log(response);
-//     })
-//     .catch(error => {
-//         console.error('OVER 9000?!?!', error);
-//     });
+api.createNote(
+    {
+        "title": "Goku is de beste",
+        "location": {
+            "lat": "over9000",
+            "lon": "ookover9000"
+        },
+        "author": "Vegeta",
+        "author_email": "what@doesthescoutersay.abouthispowerlevel"
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(error => {
+        console.error('OVER 9000?!?!', error);
+    });
 
-api.updateNote({
-      "id": 1,
-      "title": "Goku is de beste",
-      "location": {
-        "lat": "over9000",
-        "lon": "ookover9000"
-      },
-      "author": "Vegeta",
-      "author_email": "what@doesthescoutersay.abouthispowerlevel"
-    // })
-    // .then(response => {
-    //     console.log(response);
-    // })
-    // .catch(error => {
-    //     console.error('OVER 9000?!?!', error);
+api.updateNote(
+    {
+        "id": 1,
+        "title": "Goku is de beste",
+        "location": {
+            "lat": "over9000",
+            "lon": "ookover9000"
+        },
+        "author": "Vegeta",
+        "author_email": "what@doesthescoutersay.abouthispowerlevel"
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(error => {
+        console.error('OVER 9000?!?!', error);
     });
 
 
-// api.deleteNote(6);
+api.deleteNote(5);
