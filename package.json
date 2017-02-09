@@ -1,0 +1,27 @@
+{
+  "name": "json-mock",
+  "version": "1.0.0",
+  "description": "Note wrapper around json-server.",
+  "main": "src/mock-api.js",
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  },
+  "scripts": {
+      "build-docs": "./node_modules/.bin/jsdoc src/mock-api.js --destination docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefthoen/notes-api.git"
+  },
+  "keywords": [
+    "api",
+    "javascript",
+    "mock"
+  ],
+  "author": "Stef Thoen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefthoen/notes-api/issues"
+  },
+  "homepage": "https://github.com/stefthoen/notes-api#readme"
+}

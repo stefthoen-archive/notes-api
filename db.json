@@ -1,10 +1,10 @@
 {
   "notes": [
     {
-      "title": "Goku is de beste",
+      "title": "Vegeta is de beste",
       "location": {
-        "lat": "over9000",
-        "lon": "ookover9000"
+        "lat": "1000",
+        "lon": "10000"
       },
       "author": "Vegeta",
       "author_email": "what@doesthescoutersay.abouthispowerlevel",
@@ -34,9 +34,9 @@
       "title": "Goku is de beste",
       "location": {
         "lat": "over9000",
-        "lon": "ookover9000"
+        "lon": "alsoover9000"
       },
-      "author": "Vegeta",
+      "author": "Goku",
       "author_email": "what@doesthescoutersay.abouthispowerlevel",
       "id": 4
     },
@@ -44,11 +44,11 @@
       "title": "Goku is de beste",
       "location": {
         "lat": "over9000",
-        "lon": "ookover9000"
+        "lon": "alsoover9000"
       },
-      "author": "Vegeta",
+      "author": "Goku",
       "author_email": "what@doesthescoutersay.abouthispowerlevel",
-      "id": 6
+      "id": 5
     }
   ]
 }
