@@ -21,12 +21,8 @@ class MockAPI {
      * @returns {Object}
      * @example
      * api.getNote(1)
-     *     .then(note => {
-     *         console.log(note);
-     *     })
-     *     .catch(error => {
-     *         console.error('booooo', error);
-     *     });
+     *     .then(note => console.log(note))
+     *     .catch(error => console.error('booooo', error))
      */
     getNote(id) {
         return fetch(`${apiBaseURL}/notes/${id}`)
@@ -39,12 +35,8 @@ class MockAPI {
      * @returns {Array}
      * @example
      * api.getNotes()
-     *     .then(notes => {
-     *         console.log(notes);
-     *     })
-     *     .catch(error => {
-     *         console.error('booooo', error);
-     *     });
+     *     .then(notes => console.log(notes))
+     *     .catch(error => console.error('booooo', error))
      */
     getNotes() {
         return fetch(`${apiBaseURL}/notes`)
@@ -65,12 +57,8 @@ class MockAPI {
      *         "author": "Goku",
      *         "author_email": "whatdoesthescoutersay@abouthispower.level"
      *     })
-     *     .then(response => {
-     *         console.log(response);
-     *     })
-     *     .catch(error => {
-     *         console.error('OVER 9000?!?!', error);
-     *     });
+     *     .then(response => console.log(response))
+     *     .catch(error => console.error('booooo', error))
      */
     createNote(note) {
         return fetch(
@@ -87,12 +75,8 @@ class MockAPI {
      * @param {int} id - The note's id.
      * @example
      * api.deleteNote(4)
-     *     .then(response => {
-     *         console.log(response);
-     *     })
-     *     .catch(error => {
-     *         console.error('booooo', error);
-     *     });
+     *     .then(response => console.log(response))
+     *     .catch(error => console.error('booooo', error))
      */
     deleteNote(id) {
         return fetch(
@@ -114,12 +98,8 @@ class MockAPI {
      *         "author": "Goku",
      *         "author_email": "whatdoesthescoutersay@abouthispower.level"
      *     })
-     *     .then(response => {
-     *         console.log(response);
-     *     })
-     *     .catch(error => {
-     *         console.error('OVER 9000?!?!', error);
-     *     });
+     *     .then(response => console.log(response))
+     *     .catch(error => console.error('OVER 9000?!?!', error))
      */
     updateNote(note) {
         return fetch(
